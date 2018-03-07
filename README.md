@@ -509,3 +509,63 @@ body { left-margin: 0.511811024in; right-margin: 0.511811024in; top-margin: 0.78
 	</table>
   </body>
 </html>
+
+
+# REFERÊCIAS
+
+D. Bacic and A. Fadlalla. Business information
+visualization intellectual contributions: An integrative
+framework of visualization capabilities and dimensions
+of visual intelligence. Decision Support Systems, 89:77
+{ 86, 2016.
+
+R. Brath and E. Banissi. Using typography to expand
+the design space of data visualization. She Ji: The
+Journal of Design, Economics, and Innovation,
+2(1):59{87, 2016.
+
+A. Csinger. The psychology of visualization. University
+of British Columbia, Department of Computer
+Science, 1992.
+
+B. I. U. Dur. Analysis of data visualizations in daily
+newspapers in terms of graphic design. Procedia-Social
+and Behavioral Sciences, 51:278{283, 2012.
+
+S. D. H. Evergreen. Death by Boredom: The Role of
+Visual Processing Theory in Written Evaluation
+Communication. PhD thesis, Western Michigan
+University, 12 2011.
+
+C. N. Kna
+ic. Storytelling with data: A data
+visualization guide for business professionals. John
+Wiley & Sons, 2015.
+
+B. Lee, C. Plaisant, C. S. Parr, J.-D. Fekete, and
+N. Henry. Task taxonomy for graph visualization. In
+Proc. of the 2006 AVI workshop on BEyond time and
+errors: novel evaluation methods for information
+visualization, pages 1{5. ACM, 2006.
+
+K. Nazemi, D. Burkhardt, D. Hoppe, M. Nazemi, and
+J. Kohlhammer. Web-based evaluation of information
+visualization. Procedia Manufacturing, 3:5527{5534,
+2015.
+
+R. E. Patterson, L. M. Blaha, G. G. Grinstein, K. K.
+Liggett, D. E. Kaveney, K. C. Sheldon, P. R. Havig,
+and J. A. Moore. A human cognition framework for
+information visualization. Computers & Graphics,
+42:42{58, 2014.
+
+M. C. Potter, B. Wyble, C. E. Hagmann, and E. S.
+McCourt. Detecting meaning in rsvp at 13 ms per
+picture. Attention, Perception, & Psychophysics,
+76(2):270{279, 2014.
+
+A. Quispel and A. Maes. Would you prefer pie or
+cupcakes? preferences for data visualization designs of
+professionals and laypeople in graphic design. Journal
+of Visual Languages & Computing, 25(2):107{116,
+2014.
