@@ -1,4 +1,5 @@
 # O PROJETO DE INICIAÇÃO CIENTÍFICA
+Pesquisa sobre visualização de dados para Dashboards.
 
 # METODOLOGIA CIENTÍFICA
 
