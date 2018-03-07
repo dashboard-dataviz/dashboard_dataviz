@@ -96,3 +96,194 @@ Pesquisa sobre visualização de dados para Dashboards.
 |    | Porcentagem de aderência                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 79%        |                                                                                                                                             | 
 
 ![Dashboard Painel de Preços, Ministério do Planejamento, Desenvolvimento e Gestão](img/DashboardMPDG1.png).
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">Nº</th>
+    <th class="tg-yw4l">Questão</th>
+    <th class="tg-yw4l">Detalhamento</th>
+    <th class="tg-yw4l">Nota (1-5)</th>
+    <th class="tg-yw4l">Referências</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"> </td>
+    <td class="tg-yw4l">Bloco de gráficos</td>
+    <td class="tg-yw4l"> </td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">1</td>
+    <td class="tg-yw4l">Os gráficos utilizados condizem<br>  com os respectivos tipos de dados?</td>
+    <td class="tg-yw4l">Os gráficos<br>  utilizados representam de forma clara e fácil de se ler e entender seus<br>  respectivos dados?</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l">KNAFLIC, 2015; EVERGREEN, 2011; QUISPEL; 2014</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">2</td>
+    <td class="tg-yw4l">Existem gráficos de pizza, rosca<br>  ou 3D?</td>
+    <td class="tg-yw4l">Não existem<br>  gráficos pizza, rosca ou 3D. (Nota máxima caso não<br>  existam)</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">3</td>
+    <td class="tg-yw4l">Existe algum segundo eixo Y?</td>
+    <td class="tg-yw4l">Um eixo X não<br>  deve possuir dois eixos Y. (Nota máxima caso nenhum<br>  gráfico possui um segundo eixo Y)</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">4</td>
+    <td class="tg-yw4l">Existem legendas?</td>
+    <td class="tg-yw4l">Legendas para<br>  todas as informações presentes nos gráficos.</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">5</td>
+    <td class="tg-yw4l">Existem rótulos?</td>
+    <td class="tg-yw4l">Rótulos para cada valor dos gráficos.</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"> </td>
+    <td class="tg-yw4l">Bloco de cor</td>
+    <td class="tg-yw4l"> </td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">6</td>
+    <td class="tg-yw4l">Existe uma hierarquia de cor?</td>
+    <td class="tg-yw4l">Se uma<br>  informação importante é caracterizada por uma cor, recomenda-se utilizar<br>  aquela mesma cor sempre que uma informação for da mesma importância. Nesta<br>  questão também cabe se cores similares são utilizadas para contextos<br>  similares de dados</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l">CSINGER, 1992; KNAFLIC, 2015; EVERGREEN,<br>  2011; </td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">7</td>
+    <td class="tg-yw4l">Verde e vermelho são usados em<br>  conjunto?</td>
+    <td class="tg-yw4l">Verde e<br>  vermelho não devem ser usados juntos. (Nota máxima se não<br>  houver nenhuma combinação de verde com vermelho)</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">8</td>
+    <td class="tg-yw4l">Cores são usadas em<br>  demasia? </td>
+    <td class="tg-yw4l">Quanto menor a<br>  clarez do dashboard devido ao excesso de cores diferentes, menor a nota desta<br>  questão.</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"> </td>
+    <td class="tg-yw4l">Bloco de legibilidade e texto</td>
+    <td class="tg-yw4l"> </td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">9</td>
+    <td class="tg-yw4l">As fontes são legíveis?</td>
+    <td class="tg-yw4l">Os textos<br>  possuem fontes fáceis de se ler?</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l">KNAFLIC, 2015; BACIC, 2016; BRATH, 2016; DUR,<br>  2012; EVERGREEN, 2011</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">10</td>
+    <td class="tg-yw4l">Os tamanhos das fontes<br>  atrapalham a leitura?</td>
+    <td class="tg-yw4l">As fontes<br>  possuem tamanhos facilmente legíveis?</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">11</td>
+    <td class="tg-yw4l">As cores das fontes são<br>  legíveis?</td>
+    <td class="tg-yw4l">As fontes<br>  possuem cores com contraste suficiente para que a leitura seja fácil?</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">12</td>
+    <td class="tg-yw4l">Há um excesso de fontes<br>  diferentes?</td>
+    <td class="tg-yw4l">Quanto maior a<br>  quantidade de fontes diferentes, menor a nota desta questão. (Recomenda-se nota máxima para até 3 fontes diferentes)</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"> </td>
+    <td class="tg-yw4l">Bloco de organização e atenção</td>
+    <td class="tg-yw4l"> </td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">13</td>
+    <td class="tg-yw4l">Os Princípios<br>  de Gestalt são aproveitados?</td>
+    <td class="tg-yw4l">Os<br>  Princípios de Gestalt são usados para demonstrar que dois ou mais elementos<br>  fazem parde de um mesmo grupo quando colocados em meio a outros elementos.<br>  São eles: 1. Proximidade<br>  (elementos próximos são percebidos como percententes a um mesmo grupo); 2. Similaridade (elementos similares<br>  são percebidos como percententes a um mesmo grupo); 3.<br>  Invólucro (elementos dentro de um invólucro são<br>  percebidos como percententes a um mesmo grupo); 4.<br>  Fechamento (elementos dispostos de forma que uma<br>  pessoa é capaz de completar a forma sem precisar de alguns elementos<br>  faltantes); 5. Continuidade (elementos que formam alguma cuntinuidade são percebidos como<br>  percententes a um mesmo grupo); 6. Conexão (elementos conectados são percebidos como percententes a um<br>  mesmo grupo).</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l">TRAFTON, 2014; BRATH, 2016; CSINGER, 1992;<br>  KNAFLIC, 2015; DUR, 2012; PATTERSON, 2014; BACIC, 2016; LEE, 2006; NAZEMI,<br>  2015; EVERGREEN, 2011</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">14</td>
+    <td class="tg-yw4l">Atributos de atenção são<br>  usados?</td>
+    <td class="tg-yw4l">Preattentive<br>  Attributes (ou atributos de atenção) são atributos para chamar atenção, como<br>  tamanho, fonte, negrito, itálico, cor, sublinhado. Eles devem ser usados com<br>  o intuito de chamar a atenção para aqueles dados de maior relevância; e não<br>  devem ser usados para chamar a atenção para valores de menor relevância para<br>  evitar confusões.</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">15</td>
+    <td class="tg-yw4l">Existe uma hierarquia de<br>  posição?</td>
+    <td class="tg-yw4l">Informações<br>  mais importantes devem estar em cima e na esquerda, para serem visualizadas<br>  primeiro.</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">16</td>
+    <td class="tg-yw4l">Existe uma hierarquia de<br>  tamanho?</td>
+    <td class="tg-yw4l">Informações<br>  maiores denotam maior importância.</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">17</td>
+    <td class="tg-yw4l">O quão simples é o visual?</td>
+    <td class="tg-yw4l">Quão pequena é<br>  a quantidade de conteúdo que não passa nenhuma informação na tela? (Nota máxima se todo conteúdo passa informação)</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">18</td>
+    <td class="tg-yw4l">Existem elementos de storytelling?</td>
+    <td class="tg-yw4l">Elementos de storytelling são informações<br>  escritas que expliquem o contexto dos dados.</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">19</td>
+    <td class="tg-yw4l">Os elementos estão alinhados?</td>
+    <td class="tg-yw4l">Como textos e<br>  gráficos alinhados à esquerda ou direita, por exemplo.</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"> </td>
+    <td class="tg-yw4l">Pontuação obtida</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"> </td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"> </td>
+    <td class="tg-yw4l">Porcentagem de<br>  aderência</td>
+    <td class="tg-yw4l">0</td>
+    <td class="tg-yw4l"> </td>
+    <td class="tg-yw4l"></td>
+  </tr>
+</table>
