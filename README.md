@@ -421,6 +421,231 @@ body { left-margin: 0.511811024in; right-margin: 0.511811024in; top-margin: 0.78
 
 # Avaliação Dashboard Jarbas, Operação Serenata de Amor
 
+<html>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+		<col class="col0">
+		<col class="col1">
+		<col class="col2">
+		<col class="col3">
+		<col class="col4">
+		<col class="col5">
+		<col class="col6">
+		<col class="col7">
+		<col class="col8">
+		<col class="col9">
+		<col class="col10">
+		<col class="col11">
+		<col class="col12">
+		<col class="col13">
+		<col class="col14">
+		<col class="col15">
+		<col class="col16">
+		<col class="col17">
+		<col class="col18">
+		<col class="col19">
+		<col class="col20">
+		<col class="col21">
+		<col class="col22">
+		<col class="col23">
+		<col class="col24">
+		<col class="col25">
+		<col class="col26">
+		<tbody>
+		  <tr class="row0">
+			<td class="column0 style1 s">Nº</td>
+			<td class="column1 style22 s">Questão</td>
+			<td class="column2 style23 s">Detalhamento</td>
+			<td class="column3 style2 s">Nota (1-5)</td>
+			<td class="column4 style21 s">Referências</td>
+		  </tr>
+		  <tr class="row1">
+			<td class="column0 style15 null"></td>
+			<td class="column1 style47 s style47" colspan="3">Bloco de gráficos</td>
+			<td class="column4 style20 null"></td>
+			
+		  </tr>
+		  <tr class="row2">
+			<td class="column0 style28 n">1</td>
+			<td class="column1 style29 s">Os gráficos utilizados condizem com os respectivos tipos de dados?</td>
+			<td class="column2 style8 s">Os gráficos utilizados representam de forma clara e fácil de se ler e entender seus respectivos dados?</td>
+			<td class="column3 style42 s">N/A</td>
+			<td class="column4 style48 s style50" rowspan="5">KNAFLIC, 2015; EVERGREEN, 2011; QUISPEL; 2014</td>
+			
+		  </tr>
+		  <tr class="row3">
+			<td class="column0 style5 n">2</td>
+			<td class="column1 style30 s">Existem gráficos de pizza, rosca ou 3D?</td>
+			<td class="column2 style24 s">Não existem gráficos pizza, rosca ou 3D. <span style="font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt">(Nota máxima caso não existam)</span></td>
+			<td class="column3 style42 s">N/A</td>
+			
+		  </tr>
+		  <tr class="row4">
+			<td class="column0 style3 n">3</td>
+			<td class="column1 style29 s">Existe algum segundo eixo Y?</td>
+			<td class="column2 style25 s">Um eixo X não deve possuir dois eixos Y. <span style="font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt">(Nota máxima caso nenhum gráfico possui um segundo eixo Y)</span></td>
+			<td class="column3 style42 s">N/A</td>
+			
+		  </tr>
+		  <tr class="row5">
+			<td class="column0 style5 n">4</td>
+			<td class="column1 style30 s">Existem legendas?</td>
+			<td class="column2 style24 s">Legendas para todas as informações presentes nos gráficos.</td>
+			<td class="column3 style42 s">N/A</td>
+			
+		  </tr>
+		  <tr class="row6">
+			<td class="column0 style9 n">5</td>
+			<td class="column1 style31 s">Existem rótulos?</td>
+			<td class="column2 style32 s">Rótulos para cada valor dos gráficos.</td>
+			<td class="column3 style42 s">N/A</td>
+			
+		  </tr>
+		  <tr class="row7">
+			<td class="column0 style15 null"></td>
+			<td class="column1 style47 s style47" colspan="3">Bloco de cor</td>
+			<td class="column4 style20 null"></td>
+			
+		  </tr>
+		  <tr class="row8">
+			<td class="column0 style28 n">6</td>
+			<td class="column1 style29 s">Existe uma hierarquia de cor?</td>
+			<td class="column2 style8 s">Se uma informação importante é caracterizada por uma cor, recomenda-se utilizar aquela mesma cor sempre que uma informação for da mesma importância. Nesta questão também cabe se cores similares são utilizadas para contextos similares de dados</td>
+			<td class="column3 style4 n">1</td>
+			<td class="column4 style48 s style50" rowspan="3">CSINGER, 1992; KNAFLIC, 2015; EVERGREEN, 2011; </td>
+			
+		  </tr>
+		  <tr class="row9">
+			<td class="column0 style5 n">7</td>
+			<td class="column1 style30 s">Verde e vermelho são usados em conjunto?</td>
+			<td class="column2 style24 s">Verde e vermelho não devem ser usados juntos. <span style="font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt">(Nota máxima se não houver nenhuma combinação de verde com vermelho)</span></td>
+			<td class="column3 style7 n">2</td>
+			
+		  </tr>
+		  <tr class="row10">
+			<td class="column0 style3 n">8</td>
+			<td class="column1 style33 s">Cores são usadas em demasia? </td>
+			<td class="column2 style26 s">Quanto menor a clarez do dashboard devido ao excesso de cores diferentes, menor a nota desta questão.</td>
+			<td class="column3 style10 n">5</td>
+			
+		  </tr>
+		  <tr class="row11">
+			<td class="column0 style15 null"></td>
+			<td class="column1 style47 s style47" colspan="3">Bloco de legibilidade e texto</td>
+			<td class="column4 style20 null"></td>
+			
+		  </tr>
+		  <tr class="row12">
+			<td class="column0 style3 n">9</td>
+			<td class="column1 style34 s">As fontes são legíveis?</td>
+			<td class="column2 style35 s">Os textos possuem fontes fáceis de se ler?</td>
+			<td class="column3 style11 n">5</td>
+			<td class="column4 style48 s style50" rowspan="4">KNAFLIC, 2015; BACIC, 2016; BRATH, 2016; DUR, 2012; EVERGREEN, 2011</td>
+			
+		  </tr>
+		  <tr class="row13">
+			<td class="column0 style5 n">10</td>
+			<td class="column1 style30 s">Os tamanhos das fontes atrapalham a leitura?</td>
+			<td class="column2 style6 s">As fontes possuem tamanhos facilmente legíveis?</td>
+			<td class="column3 style7 n">4</td>
+			
+		  </tr>
+		  <tr class="row14">
+			<td class="column0 style3 n">11</td>
+			<td class="column1 style29 s">As cores das fontes são legíveis?</td>
+			<td class="column2 style25 s">As fontes possuem cores com contraste suficiente para que a leitura seja fácil?</td>
+			<td class="column3 style4 n">5</td>
+			
+		  </tr>
+		  <tr class="row15">
+			<td class="column0 style5 n">12</td>
+			<td class="column1 style36 s">Há um excesso de fontes diferentes?</td>
+			<td class="column2 style27 s">Quanto maior a quantidade de fontes diferentes, menor a nota desta questão. <span style="font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt">(Recomenda-se nota máxima para até 3 fontes diferentes)</span></td>
+			<td class="column3 style12 n">5</td>
+			
+		  </tr>
+		  <tr class="row16">
+			<td class="column0 style16 null"></td>
+			<td class="column1 style47 s style47" colspan="3">Bloco de organização e atenção</td>
+			<td class="column4 style20 null"></td>
+			
+		  </tr>
+		  <tr class="row17">
+			<td class="column0 style28 n">13</td>
+			<td class="column1 style37 s">Os Princípios de Gestalt são aproveitados?</td>
+			<td class="column2 style38 s">Os Princípios de Gestalt são usados para demonstrar que dois ou mais elementos fazem parde de um mesmo grupo quando colocados em meio a outros elementos. São eles: <span style="font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt">1. Proximidade</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"> (elementos próximos são percebidos como percententes a um mesmo grupo); </span><span style="font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt">2. Similaridade</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"> (elementos similares são percebidos como percententes a um mesmo grupo); </span><span style="font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt">3. Invólucro</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"> (elementos dentro de um invólucro são percebidos como percententes a um mesmo grupo); </span><span style="font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt">4. Fechamento</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"> (elementos dispostos de forma que uma pessoa é capaz de completar a forma sem precisar de alguns elementos faltantes); </span><span style="font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt">5. Continuidade</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"> (elementos que formam alguma cuntinuidade são percebidos como percententes a um mesmo grupo); </span><span style="font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt">6. Conexão</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"> (elementos conectados são percebidos como percententes a um mesmo grupo).</span></td>
+			<td class="column3 style43 s">N/A</td>
+			<td class="column4 style48 s style51" rowspan="7">TRAFTON, 2014; BRATH, 2016; CSINGER, 1992; KNAFLIC, 2015; DUR, 2012; PATTERSON, 2014; BACIC, 2016; LEE, 2006; NAZEMI, 2015; EVERGREEN, 2011</td>
+			
+		  </tr>
+		  <tr class="row18">
+			<td class="column0 style5 n">14</td>
+			<td class="column1 style39 s">Atributos de atenção são usados?</td>
+			<td class="column2 style24 s">Preattentive Attributes (ou atributos de atenção) são atributos para chamar atenção, como tamanho, fonte, negrito, itálico, cor, sublinhado. Eles devem ser usados com o intuito de chamar a atenção para aqueles dados de maior relevância; e não devem ser usados para chamar a atenção para valores de menor relevância para evitar confusões.</td>
+			<td class="column3 style7 n">1</td>
+			
+		  </tr>
+		  <tr class="row19">
+			<td class="column0 style3 n">15</td>
+			<td class="column1 style29 s">Existe uma hierarquia de posição?</td>
+			<td class="column2 style8 s">Informações mais importantes devem estar em cima e na esquerda, para serem visualizadas primeiro.</td>
+			<td class="column3 style4 n">1</td>
+			
+		  </tr>
+		  <tr class="row20">
+			<td class="column0 style5 n">16</td>
+			<td class="column1 style30 s">Existe uma hierarquia de tamanho?</td>
+			<td class="column2 style6 s">Informações maiores denotam maior importância.</td>
+			<td class="column3 style7 n">1</td>
+			
+		  </tr>
+		  <tr class="row21">
+			<td class="column0 style3 n">17</td>
+			<td class="column1 style29 s">O quão simples é o visual?</td>
+			<td class="column2 style25 s">Quão pequena é a quantidade de conteúdo que não passa nenhuma informação na tela? <span style="font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt">(Nota máxima se todo conteúdo passa informação)</span></td>
+			<td class="column3 style4 n">3</td>
+			
+		  </tr>
+		  <tr class="row22">
+			<td class="column0 style5 n">18</td>
+			<td class="column1 style30 s">Existem elementos de <span style="font-weight:bold; font-style:italic; color:#000000; font-family:'Calibri'; font-size:11pt">storytelling?</span></td>
+			<td class="column2 style6 s">Elementos de <span style="font-style:italic; color:#000000; font-family:'Calibri'; font-size:11pt">storytelling </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">são informações escritas que expliquem o contexto dos dados.</span></td>
+			<td class="column3 style7 n">1</td>
+			
+		  </tr>
+		  <tr class="row23">
+			<td class="column0 style3 n">19</td>
+			<td class="column1 style33 s">Os elementos estão alinhados?</td>
+			<td class="column2 style26 s">Como textos e gráficos alinhados à esquerda ou direita, por exemplo.</td>
+			<td class="column3 style13 n">5</td>
+			
+		  </tr>
+		  <tr class="row24">
+			<td class="column0 style17 null"></td>
+			<td class="column1 style45 s style46" colspan="2">Pontuação obtida</td>
+			<td class="column3 style14 f">39</td>
+			<td class="column4 style19 null"></td>
+			
+		  </tr>
+		  <tr class="row25">
+			<td class="column0 style40 null"></td>
+			<td class="column1 style52 s style46" colspan="2">Porcentagem de aderência</td>
+			<td class="column3 style44 n">41%</td>
+			<td class="column4 style19 null"></td>
+			
+		  </tr>
+		  <tr class="row26">
+			<td class="column1 style18 null"></td>
+			
+		  </tr>
+		  <tr class="row27">
+			<td class="column2 style41 null"></td>
+		  </tr>
+		</tbody>
+	</table>
+  </body>
+</html>
+
 ![Dashboard Jarbas - Serenada de Amor](img/DashboardJarbas.png).
 
 # Avaliação Dashboard Painel de Preços, Ministério do Planejamento, Desenvolvimento e Gestão
