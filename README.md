@@ -34,7 +34,7 @@ Escala a ser seguida ao responder:
 	  <meta name="company" content="Microsoft Corporation" />
 	<style type="text/css">
 	  html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
-	  table { border-collapse:collapse; page-break-after:always }
+	  table {width: 100%; height: 100%; border-collapse:collapse; page-break-after:always }
 	  .gridlines td { border:1px dotted black }
 	  .gridlines th { border:1px dotted black }
 	  .b { text-align:center }
