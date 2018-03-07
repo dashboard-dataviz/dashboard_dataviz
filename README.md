@@ -6,16 +6,27 @@ Pesquisa sobre visualização de dados para Dashboards.
 # FERRAMENTA DE AVALIAÇÃO
 
 A ferramenta atualmente está em formato de questionário,
-com dezenove perguntas, separadas em quatro áreas: 1)
-Gráficos; 2) Cor; 3) Legibilidade e texto; 4) Organização e
-atenção.
+com dezenove perguntas, separadas em quatro áreas: 
+
+1) Gráficos; 
+
+2) Cor; 
+
+3) Legibilidade e texto; 
+
+4) Organização e atenção.
 
 Escala a ser seguida ao responder:
-1) Não atende
-2) Atende raramente
-3) Atende ocasionalmente
-4) Atende frequentemente
-5) Atende plenamente
+
+1 - Não atende;
+
+2 - Atende raramente;
+
+3 - Atende ocasionalmente;
+
+4 - Atende frequentemente;
+
+5 - Atende plenamente.
 
 <html>
   <head>
@@ -1230,3 +1241,28 @@ body { left-margin: 0.511811024in; right-margin: 0.511811024in; top-margin: 0.78
 </html>
 ### Dashboard Painel de Preços, Ministério do Planejamento, Desenvolvimento e Gestão
 ![Dashboard Painel de Preços, Ministério do Planejamento, Desenvolvimento e Gestão](img/DashboardMPDG1.png).
+
+
+# REFERÊNCIAS
+
+BAČIĆ, Dinko; FADLALLA, Adam. Business information visualization intellectual contributions: an integrative framework of visualization capabilities and dimensions of visual intelligence. Decision Support Systems, v. 89, p. 77-86, 2016.
+
+BRATH, Richard; BANISSI, Ebad. Using typography to expand the design space of data visualization. She Ji: The Journal of Design, Economics, and Innovation, v. 2, n. 1, p. 59-87, 2016.
+
+CSINGER, Andrew. The psychology of visualization. University of British Columbia, Department of Computer Science, 1992.
+
+DUR, Banu Inanc Uyan. Analysis of data visualizations in daily newspapers in terms of graphic design. Procedia-Social and Behavioral Sciences, v. 51, p. 278-283, 2012.
+
+EVERGREEN, Stephanie DH. Death by boredom: The role of visual processing theory in written evaluation communication. Western Michigan University, 2011.
+
+KNAFLIC, Cole Nussbaumer. Storytelling with data: A data visualization guide for business professionals. John Wiley & Sons, 2015
+
+LEE, Bongshin et al. Task taxonomy for graph visualization. In: Proceedings of the 2006 AVI workshop on BEyond time and errors: novel evaluation methods for information visualization. ACM, 2006. p. 1-5.
+
+NAZEMI, Kawa et al. Web-based evaluation of information visualization. Procedia Manufacturing, v. 3, p. 5527-5534, 2015.
+
+PATTERSON, Robert E. et al. A human cognition framework for information visualization. Computers & Graphics, v. 42, p. 42-58, 2014.
+
+POTTER, Mary C. et al. Detecting meaning in RSVP at 13 ms per picture. Attention, Perception, & Psychophysics, v. 76, n. 2, p. 270-279, 2014.
+
+QUISPEL, Annemarie; MAES, Alfons. Would you prefer pie or cupcakes? Preferences for data visualization designs of professionals and laypeople in graphic design. Journal of Visual Languages & Computing, v. 25, n. 2, p. 107-116, 2014.
