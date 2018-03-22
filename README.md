@@ -833,10 +833,12 @@ body { left-margin: 0.511811024in; right-margin: 0.511811024in; top-margin: 0.78
 	</table>
   </body>
 </html>
+
 ### Dashboard Jarbas - Serenada de Amor
+
 ![Dashboard Jarbas - Serenada de Amor](img/DashboardJarbas.png).
 
-# Avaliação Dashboard Painel de Preços, Ministério do Planejamento, Desenvolvimento e Gestão
+# Avaliação Dashboard Painel de Preços, Ministério do Planejamento, Desenvolvimento e Gestão.
 
 <html>
   <head>
@@ -1239,7 +1241,9 @@ body { left-margin: 0.511811024in; right-margin: 0.511811024in; top-margin: 0.78
 	</table>
   </body>
 </html>
+
 ### Dashboard Painel de Preços, Ministério do Planejamento, Desenvolvimento e Gestão
+
 ![Dashboard Painel de Preços, Ministério do Planejamento, Desenvolvimento e Gestão](img/DashboardMPDG1.png).
 
 
