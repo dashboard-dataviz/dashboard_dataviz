@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<title>Avalie um Dashboard</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Dashboard">
+	<meta name="keywords" content="science, dashboard, data_viz">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"
+	<!-- Favicon -->
+	<link href="img/search-logo.png" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Roboto:300,400,700" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder 
+	<div id="preloder">
+		<div class="loader">
+			<img src="img/logo.png" alt="">
+			<h2>Loading.....</h2>
+		</div>
+	</div>-->
+
+
+	<!-- Header section -->
+	<header class="header-section">
+		<div class="logo">
+			<a href="index.html"> <img src="img/search-logo.png" alt="" style="width: 30%;"></a><!-- Logo -->
+		</div>
+		<!-- Navigation -->
+		<div class="responsive"><i class="fa fa-bars"></i></div>
+		<nav>
+			<ul class="menu-list">
+				<li><a href="index.html">Início</a></li>
+				<li class="active"><a href="ferramenta.html">Use & Experimente</a></li>
+				<li><a href="exemplos.html">Exemplos</a></li>
+				<li><a href="metodologia.html">Método de Avaliação</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- Header section end -->
+
+
+	<!-- Page header
+	<div class="page-top-section">
+		<div class="overlay"></div>
+		<div class="container text-right">
+			<div class="page-info">
+				<h2>Services</h2>
+				<div class="page-links">
+					<a href="#">Home</a>
+					<span>Services</span>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<!-- Page header end-->
+
+	<!-- checklist section -->
+	<div class="page-section spad">
+		<div class="container">
+			<div class="section-title">
+				<h2><span>ULTIMA VERSÃO DA FERRAMENTA</span></h2><br>
+				<h3>Faça a avaliação online de um dashboard e saiba o resultado!</h3>
+			</div>
+			<div class="container row">
+				<h4>A ferramenta atualmente está em formato de questionário, com dezenove perguntas, separadas em quatro áreas:<br><br>
+					1) Gráficos;<br>
+					2) Cor;<br>
+					3) Legibilidade e texto;<br>
+					4) Organização e atenção.<br><br>
+					Escala a ser seguida ao responder:<br><br>
+					0 - Não Aplicado; 1 - Não atende;	2 - Atende raramente; 3 - Atende ocasionalmente; 4 - Atende frequentemente; 5 - Atende plenamente.<br>
+				</h4>
+				<div class="table-responsive">
+					<h1 class="page-header">Avalie um Dashboard</h1>
+					<div class="table-responsive">
+						<table class="table table-hover table-striped table-bordered" style="border-width: 2px;order-collapse: collapse;">
+							<thead>
+								<tr style= "font-family:Oswald; font-size: 18px; border-color: black;border-width: 3px;">
+									<th style="text-align: center;">Nº</th>
+									<th style="padding-left:55px" class="col-sm-9">Questão</th>
+									<th style="text-align: center;" class="col-md-9">Escala (0-5)</th>
+								</tr>
+							</thead>
+							<tbody>
+
+								<tr style="background-color: #4997f5;text-align: center;font-weight:bold; vertical-align: middle;">
+									<th></th>
+									<td><h3>BLOCO DE GRÁFICOS</h3></td>
+								</tr>
+
+								<tr>
+									<th style="text-align: center; vertical-align: middle;">1</th>
+									<td>
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Os gráficos utilizados representam de forma clara e fácil de se ler e entender seus respectivos dados?</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion1"></a>
+													</div>
+													<div id="accordion1" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Os gráficos utilizados devem representar de forma clara e intuitiva o seu tipo de dado. Na imagem abaixo, tem-se alguns exemplos de tipos de dados e algumas representações fáceis de se ler e entender. (Note que o que as imagens mostram são somente exemplos. Então não é obrigatório o uso de um gráfico de linhas para se ter uma representação de tempo, por exemplo.)</p>
+															<img src="img/ferramenta/questao-1.png" alt="">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt1" id="txt1" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th style="text-align: center; vertical-align: middle;">2</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Não existem gráficos pizza, rosca ou 3D. (Nota máxima caso não existam)</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion2"></a>
+													</div>
+													<div id="accordion2" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>O olho humano não é bom em comparar tamanhos de áreas em que se tem um ângulo e, por isso, gráficos de pizza e rosca não devem ser utilizados. E, no caso dos gráficos em 3D, há um aumento desnecessário de informação e pode até confundir o usuário na hora de procurar o quanto vale um paralelepípedo, por exemplo.<br>
+																Portanto, recomenda-se:<br>
+																·         Nota 5 caso não existam gráficos desses tipos no dashboard;<br>
+																·         Nota 4 caso a quantidade desses tipos de gráficos representa uma pequena porcentagem do dashboard;<br>
+																·         Nota 3 caso a quantidade desses tipos de gráficos representa uma média porcentagem do dashboard;<br>
+																·         Nota 2 caso a quantidade desses tipos de gráficos representa uma grande porcentagem do dashboard;<br>
+																·         Nota 1 caso todos os gráficos sejam desses tipos no dashboard.
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt2" id="txt2" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th style="text-align: center; vertical-align: middle;">3</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Um eixo X não deve possuir dois eixos Y. (Nota máxima caso nenhum gráfico possui um segundo eixo Y)</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion3"></a>
+													</div>
+													<div id="accordion3" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Segundos eixos Y para denotar uma escala diferente devem ser evitados. Mas, se necessários, não devem ser colocados em paralelo para evitar confusão na hora da leitura. Na imagem abaixo temos exemplos de como não deve ser feito e de como pode ser feito caso seja realmente necessário.</p>
+															<img src="img/ferramenta/questao-3	.png" alt="">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt3" id="txt3" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th style="text-align: center; vertical-align: middle;">4</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Legendas para todas as informações presentes nos gráficos.</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion4"></a>
+													</div>
+													<div id="accordion4" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Todas as informações presentes nos gráficos devem possuir legenda para evitar que o usuário fique perdido no visual.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt4" id="txt4" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th style="text-align: center; vertical-align: middle;">5</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Rótulos para cada valor dos gráficos.</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion5"></a>
+													</div>
+													<div id="accordion5" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Todos os valores dos gráficos devem ser rotulados para que o usuário não precise procurar o eixo e perder tempo fazendo aproximações. (Veja a imagem exemplo da questão 3).</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt5" id="txt5" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr style="background-color: #4997f5;text-align: center;font-weight:bold; vertical-align: middle;">
+									<th></th>
+									<td><h3>BLOCO DE COR</h3></td>
+								</tr>
+
+								<tr>
+									<th style="text-align: center; vertical-align: middle;">6</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Se uma informação importante é caracterizada por uma cor, recomenda-se utilizar aquela mesma cor sempre que uma informação for da mesma importância. Nesta questão também cabe se cores similares são utilizadas para contextos similares de dados.</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion6"></a>
+													</div>
+													<div id="accordion6" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Cor é um poderoso elemento para ajudar o usuário a navegar pelo dashboard. Portanto, é importante que hierarquias sejam criadas para guiar o usuário. Veja o exemplo da Questão 17: nota-se uma hierarquia onde a cor azul representa dados relacionados a dinheiro; a cor vermelha é usada para informações positivas; as cores laranja e cinza são usadas para informações negativas. Com isso, quando o usuário vir uma cor vermelha relacionada ao dashboard em questão, ela fará a associação de que é uma informação positiva, por exemplo.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt6" id="txt6" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th style="text-align: center; vertical-align: middle;">7</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Verde e vermelho não devem ser usados juntos. (Nota máxima se não houver nenhuma combinação de verde com vermelho)</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion7"></a>
+													</div>
+													<div id="accordion7" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>8% da população é daltônica de verde e vermelho. Portanto, essas cores NÃO devem ser usadas em conjunto.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt7" id="txt7" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th style="text-align: center; vertical-align: middle;">8</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Quanto menor a clarez do dashboard devido ao excesso de cores diferentes, menor a nota desta questão.</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion8"></a>
+													</div>
+													<div id="accordion8" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Cores são importantes na criação de um bom dashboard, mas, se usadas em demasia, podem piorar a visualização e deixá-la confusa. Para auxiliar nesta questão, temos recomendações de notas:<br>
+																·         Nota 5 se são usadas até 4 cores diferentes (não adicionando à conta gradientes de uma mesma cor);<br>
+																·         Nota 4 se são usadas 5 cores diferentes (não adicionando à conta gradientes de uma mesma cor);<br>
+																·         Nota 3 se são usadas 6 cores diferentes (não adicionando à conta gradientes de uma mesma cor);<br>
+																·         Nota 2 se são usadas 7 cores diferentes (não adicionando à conta gradientes de uma mesma cor);<br>
+															·         Nota 1 se são usadas 8 ou mais cores diferentes (não adicionando à conta gradientes de uma mesma cor).</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt8" id="txt8" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr style="background-color: #4997f5;text-align: center;font-weight:bold; vertical-align: middle;">
+									<th></th>
+									<td><h3>BLOCO DE LEGIBILIDADE E TEXTO</h3></td>
+								</tr>
+
+								<tr>
+									<th style="text-align: center; vertical-align: middle;">9</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Os textos possuem fontes fáceis de se ler?</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion9"></a>
+													</div>
+													<div id="accordion9" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Os textos presentes no dashboard devem usar fontes fáceis e claras de se ler.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt9" id="txt9" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th style="text-align: center; vertical-align: middle;">10</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">As fontes possuem tamanhos facilmente legíveis?</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion10"></a>
+													</div>
+													<div id="accordion10" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Os tamanhos de todas as fontes devem ser suficientes para serem facilmente lidas.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt10" id="txt10" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th style="text-align: center; vertical-align: middle;">11</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">As fontes possuem cores com contraste suficiente para que a leitura seja fácil?</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion11"></a>
+													</div>
+													<div id="accordion11" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Todas as fontes devem possuir uma cor que contraste bem com o fundo, tornando-a clara e nítida.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">	
+										<select name="txt11" id="txt11" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th style="text-align: center; vertical-align: middle;">12</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Quanto maior a quantidade de fontes diferentes, menor a nota desta questão. (Recomenda-se nota máxima para até 3 fontes diferentes)</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion12"></a>
+													</div>
+													<div id="accordion12" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Se várias fontes diferentes são usadas em um mesmo dashboard, a leitura se torna difícil pois o usuário deve acostumar seus olhos para ler novas fontes o tempo todo.<br>
+																Recomenda-se, então:<br>
+																·         Nota 5 se são usadas até 3 fontes diferentes;<br>
+																·         Nota 4 se são usadas 4 fontes diferentes;<br>
+																·         Nota 3 se são usadas 5 fontes diferentes;<br>
+																·         Nota 2 se são usadas 6 fontes diferentes;<br>
+																·         Nota 1 se são usadas 7 ou mais fontes diferentes.
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt12" id="txt12" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr style="background-color: #4997f5;text-align: center;font-weight:bold; vertical-align: middle;">
+									<th></th>
+									<td><h3>BLOCO DE ORGANIZAÇÃO E ATENÇÃO</h3></td>
+								</tr>
+
+								<tr>
+									<th style="text-align: center; vertical-align: middle;">13</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Os Princípios de Gestalt são usados para demonstrar que dois ou mais elementos fazem parte de um mesmo grupo quando colocados em meio a outros elementos. São eles: 1. Proximidade (elementos próximos são percebidos como percententes a um mesmo grupo); 2. Similaridade (elementos similares são percebidos como percententes a um mesmo grupo); 3. Invólucro (elementos dentro de um invólucro são percebidos como percententes a um mesmo grupo); 4. Fechamento (elementos dispostos de forma que uma pessoa é capaz de completar a forma sem precisar de alguns elementos faltantes); 5. Continuidade (elementos que formam alguma continuidade são percebidos como pertencentes a um mesmo grupo); 6. Conexão (elementos conectados são percebidos como pertencentes a um mesmo grupo).</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion13"></a>
+													</div>
+													<div id="accordion13" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Os Princípios de Gestalt são usados para demonstrar que elementos fazem parte de um mesmo grupo quando colocados em meio a outros elementos. Os princípios são:<br>
+																·Proximidade (elementos próximos são percebidos como pertencentes a um mesmo grupo);<br>
+																·Similaridade (elementos similares são percebidos como pertencentes a um mesmo grupo);<br>
+																·Invólucro (elementos dentro de um invólucro são percebidos como pertencentes a um mesmo grupo);<br>
+																·Fechamento (elementos dispostos de forma que uma pessoa é capaz de completar a imagem sem precisar de alguns elementos faltantes);<br>
+																<img src="img/ferramenta/questao-13-1.png">
+																·Continuidade (elementos que formam alguma continuidade são percebidos como pertencentes a um mesmo grupo);
+																<img src="img/ferramenta/questao-13-2.png">
+																·Conexão (elementos conectados são percebidos como pertencentes a um mesmo grupo).<br>
+																Vale ressaltar que não é necessário que todos estes princípios sejam usados simultaneamente.<br>
+																Veja no exemplo da Questão 17 como alguns princípios são aproveitados:<br>
+																·Proximidade: no quadro “RANKING DE ASSOCIAÇÕES”, perceba como a legenda fica mais próxima do elemento que ela representa. “5 maiores” fica mais próximo do gráfico que mostra os cinco maiores e o mesmo acontece com “5 menores”.<br>
+																·Similaridade: perceba que cada legenda é da mesma cor da informação que representa.
+																·Invólucro: todos os quadros são envolvidos por uma linha fina para demonstrar que cada quadro representa uma informação diferente.<br>
+																·Conexão: no quadro “OCORRÊNCIAS”, veja como os pontos são conectados, demonstrando que cada ponto é um elemento de um mesmo grupo.
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt13" id="txt13" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<th style="text-align: center; vertical-align: middle;">14</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Preattentive Attributes (ou atributos de atenção) são atributos para chamar atenção, como tamanho, fonte, negrito, itálico, cor, sublinhado. Eles devem ser usados com o intuito de chamar a atenção para aqueles dados de maior relevância; e não devem ser usados para chamar a atenção para valores de menor relevância para evitar confusões.</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion14"></a>
+													</div>
+													<div id="accordion14" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Preattentive Attributes (ou atributos de atenção) são atributos para chamar atenção, como tamanho, fonte, negrito, itálico, cor, sublinhado. Eles devem ser usados com o intuito de chamar a atenção para aqueles dados de maior relevância; e NÃO devem ser usados para chamar a atenção para valores de menor relevância, para evitar confusões.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt14" id="txt14" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+
+									<th style="text-align: center; vertical-align: middle;">15</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Informações mais importantes devem estar em cima e na esquerda, para serem visualizadas primeiro.</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion15"></a>
+													</div>
+													<div id="accordion15" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>A grande maioria das pessoas leem em uma ordem específica: da esquerda para a direita e de cima para baixo. Portanto, quanto mais relevante é uma informação, mais para cima e para esquerda ela deve estar. A isso dá-se o nome de hierarquia de posição.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">	
+										<select name="txt15" id="txt15" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+
+									<th style="text-align: center; vertical-align: middle;">16</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Informações maiores denotam maior importância.</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion16"></a>
+													</div>
+													<div id="accordion16" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Informações de tamanho maior passam a impressão de serem mais importantes. Portanto, uma hierarquia pode e deve ser criada para guiar os olhos do usuário. Sendo assim, informações mais importantes tomam maior espaço, enquanto informações de menor importância podem ser representadas em tamanhos normais.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt16" id="txt16" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+
+									<th style="text-align: center; vertical-align: middle;">17</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Quão pequena é a quantidade de conteúdo que não passa nenhuma informação na tela? (Nota máxima se todo conteúdo passa informação)</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion17"></a>
+													</div>
+													<div id="accordion17" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Para que um visual seja eficiente, todos os elementos presentes devem passar informação útil. Veja na imagem abaixo uma comparação do mesmo dashboard, o primeiro com vários elementos que não passam nenhum tipo de informação útil para o contexto, o segundo com todos esses elementos retirados.</p>
+															<img src="img/ferramenta/questao-17-1">
+															<img src="img/ferramenta/questao-17-2">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt17" id="txt17" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+
+									<th style="text-align: center; vertical-align: middle;">18</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Elementos de storytelling são informações escritas que explicam o contexto dos dados.</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion18"></a>
+													</div>
+													<div id="accordion18" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Elementos de storytelling são informações escritas que explicam o contexto dos dados. Veja no exemplo da Questão 17 o quadro de “ASSOCIAÇÕES”: as frases “associações nos últimos 3 meses” e “associações canceladas nos últimos 3 meses” são exemplos de elementos de storytelling.<br>
+																Elementos de storytelling ainda podem ir adiante. Por exemplo: “associações canceladas nos últimos 3 meses” poderia explicar ainda mais sobre a situação, como “associações canceladas após a implementação da funcionalidade Y, há 3 meses”.
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt18" id="txt18" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+
+									<th style="text-align: center; vertical-align: middle;">19</th>
+									<td class="col-md-5">
+										<div class="site-accordions">
+											<div class="panel-group" id="accordion">
+												<!-- Single Accordions -->
+												<div class="panel active">
+													<div class="panel-heading">
+														<h4 class="panel-title">Como textos e gráficos alinhados à esquerda ou direita, por exemplo.</h4>
+														<a data-toggle="collapse" data-parent="#accordion" href="#accordion19"></a>
+													</div>
+													<div id="accordion19" class="panel-collapse collapse">
+														<div class="panel-body">
+															<p>Elementos não alinhados passam a impressão de desorganização. Por isso, dá-se preferências por formações alinhadas para dar mais conforto aos olhos do usuário. Veja no exemplo da Questão 17 como as informações sempre formam linhas.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</td>
+									<td style="text-align: center; vertical-align: middle;">
+										<select name="txt9" id="txt19" onfocus="calcular()">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<th style="text-align: center; vertical-align: middle;"></th>
+									<td style="text-align: center;font-weight:bold; vertical-align: middle;">PONTUAÇÃO OBTIDA</td>
+									<td style="text-align: center; font-weight:bold; vertical-align: middle;"><input readonly onfocus="calcular()" class="text-center" id="result" value="0" type="text"/></td>
+								</tr>
+								<tr>
+									<th style="text-align: center; vertical-align: middle;"></th>
+									<td style="text-align: center; font-weight:bold; vertical-align: middle;">PERCENTUAL DE ADERÊNCIA</td>
+									<td style="text-align: center; font-weight:bold; vertical-align: middle;"><input readonly onfocus="calcular()" class="text-center" id="aderencia" value="0" type="text"/></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		function calcular(){
+			var cnt = 0;
+			var cnt1 = 19;
+			var aderencia = 0;
+			var resp = 0;
+			var valor1 = parseInt(document.getElementById('txt1').value);
+			var valor2 = parseInt(document.getElementById('txt2').value);
+			var valor3 = parseInt(document.getElementById('txt3').value);
+			var valor4 = parseInt(document.getElementById('txt4').value);
+			var valor5 = parseInt(document.getElementById('txt5').value);
+			var valor6 = parseInt(document.getElementById('txt6').value);
+			var valor7 = parseInt(document.getElementById('txt7').value);
+			var valor8 = parseInt(document.getElementById('txt8').value);
+			var valor9 = parseInt(document.getElementById('txt9').value);
+			var valor10 = parseInt(document.getElementById('txt10').value);
+			var valor11 = parseInt(document.getElementById('txt11').value);
+			var valor12 = parseInt(document.getElementById('txt12').value);
+			var valor13 = parseInt(document.getElementById('txt13').value);
+			var valor14 = parseInt(document.getElementById('txt14').value);
+			var valor15 = parseInt(document.getElementById('txt15').value);
+			var valor16 = parseInt(document.getElementById('txt16').value);
+			var valor17 = parseInt(document.getElementById('txt17').value);
+			var valor18 = parseInt(document.getElementById('txt18').value);
+			var valor19 = parseInt(document.getElementById('txt19').value);
+			var valores = [valor1,valor2,valor3,valor4,valor5,valor6,valor7,valor8,valor9,valor10,valor11,valor12,valor13,valor14,valor15,valor16,valor17,valor18,valor19];
+			cnt = 0;
+			for (var i = 0; i < valores.length; i++) {
+				if (valores[i] != 0) {
+					cnt1--;
+				}
+				cnt += parseInt(valores[i]);
+			}
+			resp = 19-cnt1;
+			aderencia = [(resp/19)*(cnt/(resp*5))]*100;
+			/*[número de questões respondidas/19]*[nota obtida/(número de questões respondidas*5)]*/
+			document.getElementById('result').value = cnt + " PTS";
+			document.getElementById('aderencia').value = aderencia +" % ";
+		}
+	</script>
+
+	<!-- Footer section -->
+	<footer class="footer-section">
+		<h2>2018 All rights reserved.</h2>
+	</footer>
+	<!-- Footer section end -->
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
